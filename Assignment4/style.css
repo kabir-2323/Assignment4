@@ -1,0 +1,144 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: red;
+}
+.list{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+li a:hover {
+  background-color: #111;
+}
+
+.slider {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 5px;
+    width: 700px;
+    height:60vh;
+    border-radius: 10px;
+    animation-name: sliderAnim;
+    animation-duration: 20s;
+    animation-iteration-count: 20;
+    cursor: pointer;
+     margin:10px auto;
+    transition: all 2 ease;
+}
+@keyframes sliderAnim {
+    0% {
+      background-image: url('https://mongooseagency.com/files/3415/9620/1413/Return_of_Sports.jpg');
+        background-repeat:no-repeat;
+      
+        background-size: cover;
+    }
+    20% {
+        background-image: url('https://5.imimg.com/data5/SELLER/Default/2020/10/IM/PY/AX/114098888/popular-willow-cricket-bat-500x500.jpg');
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+    40% {
+        background-image: url('https://thumbs.dreamstime.com/b/sport-collage-boxing-soccer-american-football-basketball-baseball-ice-hockey-etc-multi-professional-tennis-l-bascketball-players-93401905.jpg');
+		background-repeat:no-repeat;
+        background-size: cover;
+    }
+    60% {
+        background-image: url('https://media.istockphoto.com/photos/closeup-of-sport-balls-and-equipment-picture-id1136317340?k=6&m=1136317340&s=612x612&w=0&h=I13NnGG4z5wDcczGq7CVBh-k9sUwNuRiv6KANwKGJ4w=');
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+    80% {
+        background-image: url('http://www.gadgetadda.com/wp-content/uploads/2020/06/gadgets-sports.jpg');
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+    100% {
+        background-image: url('https://www.skymetweather.com/content/wp-content/uploads/2021/03/How-to-play-sports-betting-online-fb.jpg');
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+}
+
+
+.grid {
+  margin: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  align-items: stretch;
+  }
+
+.grid > article {
+  border: 1px solid #FFFF00;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  border-radius: 3px;
+  text-align: center;
+}
+
+.grid > article:hover{
+  transition: transform .1s ease-out;
+  transform: translateY(5px);
+}
+
+.grid > article img {
+  width: 100%;
+}
+.text {
+  padding: 0 20px 20px;
+  color: black;
+}
+
+.text > button {
+ background-color: red;
+  border-radius: 3px;
+  border: 0;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  font-weight: 600;
+  text-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  text-transform: uppercase;
+}
+.img11{
+	height:250px;
+	width:270px;
+}
+
+
+
+footer ul {
+   padding:0;
+  text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+  list-style:none;
+  width:6%;
+  padding:5px;
+  float: none;
+
+	
+}
+footer a {
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: white;
+}
